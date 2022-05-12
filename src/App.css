@@ -1,0 +1,82 @@
+.App {
+  color: black  ;   
+  font-family: sans-serif;
+  text-align: center;
+ } 
+
+.testsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  position:relative
+}
+
+.testContainer {
+  background-color: gray;
+  color: whitesmoke;
+  width: 90%;
+  margin: 1%;
+  padding: 1%;
+  border-radius: 30px;
+}
+
+
+.testContainer:hover {
+  background-color: #444c54;
+  cursor: pointer;
+}
+
+.btn 
+
+input[type="radio"] {
+  visibility:hidden;
+}
+
+label:hover {
+  background-color: #bbc1c6;
+  cursor: pointer;
+}
+input[type="radio"]:checked + label {
+  background: #9ca8b3;
+}
+
+.nav-link {
+  color: white !important;
+  }
+
+
+.answer-button {
+  border: none;
+  color: white;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Ubuntu Mono;
+  font-size: 32px;
+  margin: 30px 20px;
+  cursor: pointer;
+  position: relative;
+}
+.answer-button:nth-child(1) {
+  background-color: red;
+  top: 0;
+  left: 0;
+}
+.answer-button:nth-child(2) {
+  background-color: blue;
+  top: 0;
+  right: 0;
+}
+.answer-button:nth-child(3) {
+  background-color: #e6c52d;
+  bottom: 0;
+  left: 0;
+}
+.answer-button:nth-child(4) {
+  background-color: green;
+  bottom: 0;
+  right: 0;
+}
